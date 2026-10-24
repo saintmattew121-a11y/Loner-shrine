@@ -1,4 +1,4 @@
-import makeWASocket, {
+ import makeWASocket, {
   useMultiFileAuthState,
   downloadMediaMessage,
   normalizeMessageContent,
