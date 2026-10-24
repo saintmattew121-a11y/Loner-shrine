@@ -1,4 +1,5 @@
-import makeWASocket, {
+import import http from 'http'
+http.createServer((_, res) => res.end('ok')).listen(process.env.PORT || 3000)makeWASocket, {
   useMultiFileAuthState,
   downloadMediaMessage,
   normalizeMessageContent,
