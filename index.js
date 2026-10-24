@@ -1,4 +1,12 @@
+import http from 'http'import makeWASocket, {
+  useMultiFileAuthState,
+  downloadMediaMessage,
+  normalizeMessageContent,
+  fetchLatestBaileysVersion,
+  DisconnectReason,
+} from '@whiskeysockets/baileys'
 import http from 'http'
+http.createServer((_, res) => res.end('ok')).listen(process.env.PORT || 3000)
 http.createServer((_, res) => res.end('ok')).listen(process.env.PORT || 3000)makeWASocket, {
   useMultiFileAuthState,
   downloadMediaMessage,
